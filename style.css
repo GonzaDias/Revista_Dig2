@@ -1,0 +1,96 @@
+body{
+    font-family: Poppins;
+}
+
+/*--------SECCION HEADER-------*/
+header{
+    height: 350px;
+    background-color: rgb(164, 237, 164);
+    text-align: center;
+}
+header h1{
+    padding-top: 80px;
+}
+header img{
+    height: 120px;
+    opacity: 80%;
+}
+
+/*--------SECCION MENU-------*/
+nav{
+    height: 250px;
+}
+nav ul{
+    padding-top: 50px;
+}
+nav ul li{
+    text-decoration: none;
+    list-style: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+nav ul li a{
+    text-decoration: none;
+    text-shadow: 0.5px 0.5px black;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    font-size: 17px;
+}
+
+/*--------SECCION NOVEDADES--------*/
+#novedades{
+    text-align: center;
+    height: 630px;
+    background-color: rgb(105, 162, 243);
+}
+#novedades img{
+    height: 200px;
+    margin: 0px;
+}
+#novedades h3{
+    padding-top: 200px;
+}
+
+/*-------SECCION DONDE ESTAMOS---------*/
+#donde{
+    height: 650px;
+    background-color: rgb(245, 239, 228);
+    text-align: center;
+}
+#donde h2{
+    padding-top: 200px;
+}
+
+/*--------SECCION TALLERES--------*/
+#talleres{
+    height: 550px;
+}
+table{
+    table-layout: fixed;
+    width: 100%;
+    /*border-collapse: collapse;*/
+    border: 3px solid;
+    background-color: antiquewhite;
+}
+th, td{
+    padding: 20px;
+    text-align: center;
+}
+thead{
+    background-color: rgb(202, 198, 198);
+}
+tbody tr:nth-child(2n-1){
+    background-color: rgb(153, 232, 105);
+}
+/*--------FOOTER---------*/
+footer{
+    background-color: rgb(131, 127, 127);
+    height: 300px;
+    color: rgb(236, 240, 244);
+    /*padding-left: 600px;*/
+}
+footer div{
+    padding-top: 50px;
+    margin-left: 600px;
+}
