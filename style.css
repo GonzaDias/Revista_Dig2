@@ -4,40 +4,91 @@ body{
 
 /*--------SECCION HEADER-------*/
 header{
-    height: 350px;
+    height: 100vh;
     background-color: rgb(164, 237, 164);
+    background: url(escuela_fachada.jpg);
     text-align: center;
+    background-size: cover;
 }
-header h1{
-    padding-top: 80px;
+#menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#menu ul{
+    display: flex;
+}
+#menu li{
+    margin: 0 15px;
 }
 header img{
     height: 120px;
     opacity: 80%;
 }
+#titular{
+    text-align: center;
+    margin-top: 40vp;
+    color: aliceblue;
+}
+#titular h1{
+    font-size: 70px;
+    text-shadow: 2px 0 0 black;
+}
+#titular p{
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 2px 0 0 black;
+}
+#titular a{
+    background: rgb(30, 154, 8);
+    color: rgb(247, 244, 244);
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
 
 /*--------SECCION MENU-------*/
 nav{
-    height: 250px;
-}
-nav ul{
-    padding-top: 50px;
+    height: 150px;
 }
 nav ul li{
     text-decoration: none;
     list-style: none;
-    padding-top: 5px;
-    padding-bottom: 5px;
 }
 nav ul li a{
+    color: blanchedalmond;
     text-decoration: none;
-    text-shadow: 0.5px 0.5px black;
+    text-shadow: 2px 3px 5px black;
     font-weight: bold;
 }
 nav ul li a:hover{
     font-size: 17px;
 }
-
+/*----------LO ULTIMO---------------*/
+.tarjeta{
+    text-align: center;
+    box-shadow: 5px 7px 3px rgb(173, 166, 166);
+    width: 25%;
+    margin: 15px;
+    margin-top: -80px;
+    background: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+}
+.tarjeta img{
+    height: 150px;
+}
+.tarjeta a{
+    color: black;
+    font-weight: bold;
+}
+#contenedor-tarjetas{
+    display: flex;
+    justify-content: center;
+}
 /*--------SECCION NOVEDADES--------*/
 #novedades{
     text-align: center;
@@ -77,11 +128,22 @@ th, td{
     padding: 20px;
     text-align: center;
 }
-thead{
-    background-color: rgb(202, 198, 198);
+.gris{
+    background-color: rgb(168, 162, 162);
 }
-tbody tr:nth-child(2n-1){
-    background-color: rgb(153, 232, 105);
+.blanco{
+    background-color: aliceblue;
+}
+
+#hs-atencion{
+    padding-top: 50px;
+    text-align: center;
+    height: 600px;
+}
+
+/**********GALERIA*********/
+#galeria-fotos{
+    display: flex;
 }
 /*--------FOOTER---------*/
 footer{
